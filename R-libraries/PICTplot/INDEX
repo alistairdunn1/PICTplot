@@ -1,0 +1,25 @@
+tonga                   tongaPlot high level plotting function
+tonga.addaxis           tongaPlot low level plotting functions
+tonga.plotsp            tongaPlot low level plotting functions
+
+pp           PICTplot high level plotting function  
+pp.addaxis   Add an additional axis to a PICT plot
+pp.arrows    Add arrows to a PICT plot
+pp.axis      Add an axis to a PICT plot
+pp.bubble    Add a bubble plot to a PICT plot
+pp.circle    Add a circle to a PICT plot
+pp.depth     Add depth contours to a PICT plot
+pp.eez       Add eez lines to a PICT plot
+pp.image     Add an image to a PICT plot
+pp.image.legend  Add an image legend to a PICT plot
+pp.legend    Add a legend to a PICT plot
+pp.lines     Add lines to a PICT plot
+pp.locator   Locator functon for a PICT plot
+pp.north     Add a north arrow indicator to a PICT plot
+pp.pie       Add as pie chart to a PICT plot
+pp.points    Add points to a PICT plot
+pp.polygon   Add polygons to a PICT plot 
+pp.scale     Add a scale to a PICT plot
+pp.segments  Add line segments to a PICT plot   
+pp.symbols   Add symbols to a PICT plot
+pp.text      Add text to a PICT plot

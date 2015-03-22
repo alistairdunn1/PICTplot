@@ -1,0 +1,7 @@
+library(PICTplot)
+pp(xlim=c(180, 190), ylim = c(-14,-26),fill="green")
+pp.depth(100,col="gray40")
+pp.depth(250,col="gray40")
+pp.depth(500,col="gray40")
+pp.eez()
+box()
