@@ -6,7 +6,20 @@
 pp.scale(x, y = NULL, at = c(50, 100, 200), legend = "Scale (nm)",
   scale = 1, angle = 90, tick, cex, ...)
 }
+\arguments{
+\item{x,}{y  coordinates of where the scale is located}
+
+\item{at}{Scale measurements}
+
+\item{legend}{Scale legend label}
+}
+\value{
+Returns no value
+}
 \description{
 Add a scale to a PICT plot
+}
+\details{
+Adds a scale to a pp() plot
 }
 

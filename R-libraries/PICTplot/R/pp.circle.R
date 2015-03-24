@@ -1,12 +1,11 @@
 #' Add constant distance circle to a PICT plot
 #'
 #' @description Draws circles with specified great circle radii (in nautical miles) around specified centres
-#
 #' @param distance The circle radius in nautical miles (multiply by 1.852 to get kilometers)
 #' @param long, lat Location of the circle centre in decimal degrees
 #' @param fillcol if fillcol != 0, then then circle will be filled with colour fill.col
 #' @param plot if plot = FALSE, the function will return the point co-ordinates, and not plot
-#'
+#' @return Returns no value
 #' @export
 #'
 "pp.circle"<-

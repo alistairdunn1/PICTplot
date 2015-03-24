@@ -8,7 +8,13 @@ pp.polygon(x, y = NULL, ...)
 \arguments{
 \item{x,}{y  the x and y co-ordinates for the centres of the symbols.}
 }
+\value{
+Returns no value
+}
 \description{
-polygon draws the polygons whose vertices are given in x and y.
+Draws polygons whose vertices are given in x and y.
+}
+\details{
+Adds a polygon to a pp() plot
 }
 

@@ -10,7 +10,13 @@ pp.segments(x0, y0, x1, y1, ...)
 
 \item{x1,}{y1  coordinates of points to which to draw. At least one must be supplied.}
 }
+\value{
+Returns no value
+}
 \description{
-Draw line segments between pairs of points.
+Draws line segments between pairs of points.
+}
+\details{
+Adds segments to a pp() plot
 }
 

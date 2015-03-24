@@ -32,14 +32,14 @@
 #' @param box.col Box colour
 #' @param border Extent of border around outside of plot. default=0
 #' @param background.col   Either missing or the background colour to shade the whole plot area. If missing, there is no shading (transparent).#' @param ... Additional plotting parameters passed to some plotting commands within .PICT (For further details see par().) Examples: cex.main, col.main, font.main for character expansion, colour, and font of the main title and cex.lab for character expansion for the xlab and ylab titles.
-#' @param grid Add 5 degree grid lines
+#' @param grid Add 5 degree grid lines (default is false). See also pp.grid()
 #' @details After setting up plot area, then if required, PICT fills the plot area with background.col, fills land areas using pp.polygon and draws coastlines using pp.lines. It next draws the axes using pp.labels.degree of pp.labels.decimal and a box is drawn around the plot area. If required, a title, subtitle and axis titles are added and the size, colour, and font can be controlled by cex.main, cex.sub, cex.lab, col.main, etc. which are passed via the ... argument.  The characteristics of the plot are saved in the list object .PICT in the global environment for later use by low level plotting functions that add features to the exsting plot.
 
 #' @return Returns no value but the side effect is to draw the plot area.
 #' @export
 #'
 "pp"<-
-function(xlim=c(125, 225), ylim = c(25,-50), coastline = TRUE, lty = 1, lwd = 1, col = 1, fill.col = 0, density = NA, angle = 45, projection = "merc", aspect = "ratio", axes = TRUE, xaxt, yaxt, tcl = -0.3, minor.tcl = 0, labels = "degree", cex = 1, mgp, las, xlab = NULL, ylab = NULL, main = NULL, sub = NULL, box.lty = 1, box.lwd = 1, box.col = 1, background.col, border = 0, grid=F ,...)
+function(xlim=c(140, 225), ylim = c(10,-30), coastline = TRUE, lty = 1, lwd = 1, col = 1, fill.col = "ivory3", density = NA, angle = 45, projection = "merc", aspect = "ratio", axes = TRUE, xaxt, yaxt, tcl = -0.3, minor.tcl = 0, labels = "degree", cex = 1, mgp, las, xlab = NULL, ylab = NULL, main = NULL, sub = NULL, box.lty = 1, box.lwd = 1, box.col = 1, background.col, border = 0, grid=F ,...)
 {
 
   # print the version of PICTPlot

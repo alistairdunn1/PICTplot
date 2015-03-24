@@ -7,7 +7,31 @@ pp.bubble(x, y = NULL, radius, scale = NULL, plot.centre = FALSE,
   resolution = 360, border = par("fg"), col = NA, density = NULL,
   angle = 45, ...)
 }
+\arguments{
+\item{x,}{y vectors for the locations of the centres of the bubbles. Alternatively, x can be a matrix, a list or a data frame with names that include either {"long", "lat"}, or {"x", "y"}. Otherwise the first two columns or components will assumed to be x and y respectively. If x and y are vectors, they are the longs and lats of the centres.}
+
+\item{radius}{a vector of circle radii which are interpreted as the relative sizes of the radii. If scale is NULL then the radii are interpreted as fractions of the x-axis length. If scale is specified then the radii are interpreted as relative sizes and need not be normalised.}
+
+\item{scale}{scales the circles so that the circle of largest radius is the proportion of the length of the x axis specified by scale. Default value is NULL, which means radius values are interprested as fractions of the x-axis.}
+
+\item{plot.centre}{logical determining if a point is to be plotted at the centre of each circle.}
+
+\item{resolution}{an integer specifying the numbers of points used to draw the circle. Default is 360, which corresponds to a point every degree around the circle.}
+
+\item{border}{colour of circle border and centre point. The default is to use par("fg"). Use border = NA to omit borders. (See the R function polygon for more information about border, col, density, and angle)}
+
+\item{col}{solid fill colour for circle. If col = NA circle is not filled. If density is positive then col sets the colour of the stripe lines.}
+
+\item{density}{density of stripe lines for filling the circle. Use density = NULL to omit stripes but allow solid fill.}
+
+\item{angle}{angle of fill stripe lines}
+
+\item{...}{other plotting parameters to pass to the polygon and points functions, e.g. lty for ploygon border, pch and cex for circle centre points.}
+}
+\value{
+Returns no value
+}
 \description{
-Add a bubble plot to a PICT plot
+Draw and/or fill single or multiple circles on an PICTPlot map. The circles drawn appear as exact circles in the projection used but are not generally circles on the earth's surface. If multiple circles are drawn they will all have the same fill, lines, and border colours. Default settings draw the circles unfilled. Function can be used to draw draw "bubble" plots or a single circle.
 }
 

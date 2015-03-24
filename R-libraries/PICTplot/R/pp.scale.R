@@ -1,5 +1,11 @@
 #' Add a scale to a PICT plot
 #'
+#' @description Add a scale to a PICT plot
+#' @param x, y  coordinates of where the scale is located
+#' @param at Scale measurements
+#' @param legend Scale legend label
+#' @details Adds a scale to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.scale"<-

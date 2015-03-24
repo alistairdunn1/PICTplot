@@ -5,7 +5,16 @@
 \usage{
 pp.lines(x, y = NULL, ...)
 }
+\arguments{
+\item{x,}{y  numeric vectors of coordinates where the lines should be written. If the length of x and y differs, the shorter one is recycled.}
+}
+\value{
+Returns no value
+}
 \description{
-Add lines to a PICT plot
+Draws lines whose vertices are given in x and y.
+}
+\details{
+Adds a line to a pp() plot
 }
 

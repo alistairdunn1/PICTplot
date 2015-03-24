@@ -1,7 +1,9 @@
 #' Add points to a PICT plot
 #'
-#' @description This function draws draw a sequence of points at the specified coordinates.
+#' @description TDraws draw a sequence of points at the specified coordinates.
 #' @param x, y  the x and y co-ordinates for the centres of the symbols.
+#' @details Adds points to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.points" <-

@@ -8,7 +8,13 @@ pp.points(x, y = NULL, ...)
 \arguments{
 \item{x,}{y  the x and y co-ordinates for the centres of the symbols.}
 }
+\value{
+Returns no value
+}
 \description{
-This function draws draw a sequence of points at the specified coordinates.
+TDraws draw a sequence of points at the specified coordinates.
+}
+\details{
+Adds points to a pp() plot
 }
 

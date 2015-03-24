@@ -1,7 +1,12 @@
-# TODO
-
 #' Add arrows to a PICT plot
 #'
+#' @description Adds arrows to a PICT plot
+#' @param x0, y0 coordinates of points from which to draw.
+#' @param x1, y1 coordinates of points to which to draw. At least one must the supplied
+#' @param length length of the edges of the arrow head (in inches).
+#' @param ... arguments passes to arrows()
+#' @details Adds arrows to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.arrows"<-

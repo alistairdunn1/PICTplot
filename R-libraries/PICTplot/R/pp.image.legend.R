@@ -1,7 +1,8 @@
 #' Add an image legend to a PICT plot
 #'
-#' @description See R graphics function image for details of parameters that are passed to image by ...
-#'
+#' @description See R graphics function image for details
+#' @param ... arguments passed to image()
+#' @return Returns no value
 #' @export
 #'
 "pp.image.legend"<-
@@ -55,8 +56,8 @@ function(zmat, x, y, size = c(0.25, 2), horizontal = F, nint = 50, plus = F, lab
   }
   else {
     if(horizontal)
-      sub.par <- subplot(x = mlong(x), y = mlat(y), size = rev(size), fun = image(x = irgz, y = 1:lirgz, z = matrix(irgz, lirgz, lirgz), yaxt = "n", ...), hadj = 0, vadj = 1)
-    else sub.par <- subplot(x = mlong(x), y = mlat(y), size = size, fun = image(x = 1:lirgz, y = irgz, z = matrix(irgz, lirgz, lirgz, byrow = T), xaxt = "n", ...), hadj = 0, vadj = 1)
+      sub.par <- pp.subplot(x = mlong(x), y = mlat(y), size = rev(size), fun = image(x = irgz, y = 1:lirgz, z = matrix(irgz, lirgz, lirgz), yaxt = "n", ...), hadj = 0, vadj = 1)
+    else sub.par <- pp.subplot(x = mlong(x), y = mlat(y), size = size, fun = image(x = 1:lirgz, y = irgz, z = matrix(irgz, lirgz, lirgz, byrow = T), xaxt = "n", ...), hadj = 0, vadj = 1)
   }
   par(old.par)
   invisible()

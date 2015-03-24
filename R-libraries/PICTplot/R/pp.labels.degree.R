@@ -1,6 +1,7 @@
-#' Utility function
-#' @description degree label label function
-#'
+# Utility function
+#
+# degree label label function
+#
 "pp.labels.degree"<-
 function(side, range, cex, lty, mgp, tcl, minor.tcl, label.text, hadj, padj, ...)
 {

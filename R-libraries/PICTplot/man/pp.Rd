@@ -3,7 +3,7 @@
 \alias{pp}
 \title{PICTplot high level plotting function}
 \usage{
-pp(xlim = c(125, 225), ylim = c(25, -50), coastline = TRUE, lty = 1,
+pp(xlim = c(140, 225), ylim = c(10, -30), coastline = TRUE, lty = 1,
   lwd = 1, col = 1, fill.col = 0, density = NA, angle = 45,
   projection = "merc", aspect = "ratio", axes = TRUE, xaxt, yaxt,
   tcl = -0.3, minor.tcl = 0, labels = "degree", cex = 1, mgp, las,
@@ -59,7 +59,7 @@ pp(xlim = c(125, 225), ylim = c(25, -50), coastline = TRUE, lty = 1,
 
 \item{border}{Extent of border around outside of plot. default=0}
 
-\item{grid}{Add 5 degree grid lines}
+\item{grid}{Add 5 degree grid lines (default is false). See also pp.grid()}
 
 \item{...}{Additional plotting parameters passed to some plotting commands within .PICT (For further details see par().) Examples: cex.main, col.main, font.main for character expansion, colour, and font of the main title and cex.lab for character expansion for the xlab and ylab titles.}
 

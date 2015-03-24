@@ -1,5 +1,9 @@
 #' Add depth contours to a PICT plot
 #'
+#' @description Adds depth contours to a PICT plot
+#' @param contour The depth contours to be plotted
+#' @details Adds a bathymetric contour to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.depth"<-

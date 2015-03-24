@@ -6,6 +6,8 @@
 #' @param label if true, then adds a label with 'N' at the top of the arrow
 #' @param length
 #' @param x, y
+#' @details Adds a north pointer arrow to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.north" <-

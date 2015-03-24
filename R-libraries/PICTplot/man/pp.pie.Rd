@@ -16,7 +16,13 @@ pp.pie(x, y = NULL, z, size = 0.2, resolution = 360, start.angle = 1, col = rain
 
 \item{x,}{y x, y give the location of the centre of the pie charts. x is either a scalar giving the longitude of the centre or a vector of length 2 giving the long and lat (in that order) of the centre}
 }
+\value{
+Returns no value
+}
 \description{
-#   Draws pie charts at specified locations on a map drawn by PICTplot using either the Mercator or rectangular projection.
+Draws pie charts at specified locations on a map drawn by PICTplot using either the Mercator or rectangular projection.
+}
+\details{
+Adds a pie graph onto a pp() plot
 }
 

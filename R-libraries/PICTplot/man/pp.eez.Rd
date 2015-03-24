@@ -5,7 +5,18 @@
 \usage{
 pp.eez(country = NULL, lty = 1, lwd = 1, col = 1, ...)
 }
+\arguments{
+\item{country}{Selects the counties for which to plot EEZ lines. NOT YET IMPLEMETED. Defaults to all countries.}
+
+\item{...}{other arguments to be passed to the R graphics package function lines}
+}
+\value{
+Returns no value
+}
 \description{
-Add eez lines to a PICT plot
+Adds eez lines to a PICT plot
+}
+\details{
+EEZ lines are added to the plot
 }
 

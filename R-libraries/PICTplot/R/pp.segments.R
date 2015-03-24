@@ -1,8 +1,10 @@
 #' Add segments to a PICT plot
 #'
-#' @description Draw line segments between pairs of points.
+#' @description Draws line segments between pairs of points.
 #' @param x0, y0  coordinates of points from which to draw.
 #' @param x1, y1  coordinates of points to which to draw. At least one must be supplied.
+#' @details Adds segments to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.segments" <-

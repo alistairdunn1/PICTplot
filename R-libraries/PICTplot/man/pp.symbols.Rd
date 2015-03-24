@@ -8,7 +8,13 @@ pp.symbols(x, y = NULL, add = TRUE, ...)
 \arguments{
 \item{x,}{y  the x and y co-ordinates for the centres of the symbols.}
 }
+\value{
+Returns no value
+}
 \description{
-This function draws symbols on a plot. One of six symbols; circles, squares, rectangles, stars, thermometers, and boxplots, can be plotted at a specified set of x and y coordinates. Specific aspects of the symbols, such as relative size, can be customized by additional parameters.
+Draws symbols on a plot. One of six symbols; circles, squares, rectangles, stars, thermometers, and boxplots, can be plotted at a specified set of x and y coordinates. Specific aspects of the symbols, such as relative size, can be customized by additional parameters.
+}
+\details{
+Adds symbols to a pp() plot
 }
 

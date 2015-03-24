@@ -5,6 +5,16 @@
 \usage{
 pp.image(x = 1:dim(z)[1], y = 1:dim(z)[2], z, ...)
 }
+\arguments{
+\item{x,}{y  locations of grid lines at which the values in z are measured. These must be finite, non-missing and in (strictly) ascending order. By default, equally spaced values from 0 to 1 are used.}
+
+\item{z}{a matrix containing the values to be plotted (NAs are allowed).}
+
+\item{...}{arguments passed to image()}
+}
+\value{
+Returns no value
+}
 \description{
 See R graphics function image for details of parameters that are passed to image by ...
 }

@@ -1,7 +1,9 @@
 #' Add text to a PICT plot
 #'
-#' @description text draws the strings given in the vector labels at the coordinates given by x and y. y may be missing since xy.coords(x, y) is used for construction of the coordinates.
+#' @description Draws the strings given in the vector labels at the coordinates given by x and y. y may be missing since xy.coords(x, y) is used for construction of the coordinates.
 #' @param x, y  numeric vectors of coordinates where the text labels should be written. If the length of x and y differs, the shorter one is recycled.
+#' @details Adds text to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.text"<-

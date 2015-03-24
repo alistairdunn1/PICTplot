@@ -5,7 +5,13 @@
 \usage{
 pp.locator(...)
 }
+\arguments{
+\item{...}{additional parameters passes to locator()}
+}
+\value{
+Returns a list of lat/long points identifed by the cursor
+}
 \description{
-return a lat/long location from a PICT plot
+Uses the cursor to identify a lat/long location on a PICT plot
 }
 

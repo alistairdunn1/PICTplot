@@ -1,5 +1,5 @@
-#' Utility function
-#'
+# Utility function
+#
 "pp.select2"<-
 function(x, y)
 {

@@ -1,7 +1,9 @@
 #' Add a polygon to a PICT plot
 #'
-#' @description polygon draws the polygons whose vertices are given in x and y.
+#' @description Draws polygons whose vertices are given in x and y.
 #' @param x, y  the x and y co-ordinates for the centres of the symbols.
+#' @details Adds a polygon to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.polygon"<-

@@ -6,7 +6,13 @@
 pp.image.legend(zmat, x, y, size = c(0.25, 2), horizontal = F, nint = 50,
   plus = F, lab, ...)
 }
+\arguments{
+\item{...}{arguments passed to image()}
+}
+\value{
+Returns no value
+}
 \description{
-See R graphics function image for details of parameters that are passed to image by ...
+See R graphics function image for details
 }
 

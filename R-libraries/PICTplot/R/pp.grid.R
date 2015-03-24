@@ -1,12 +1,10 @@
 #' Add axis grid lines to a PICT plot
 #'
 #' @description Adds grid lines to a PICT plot
-#'
-#' @param at the places (in degrees) at which gridlines will be drawn. Defaults to 5 degrees
+#' @param at the frequency (in degrees) at which gridlines will be drawn. Defaults to 5 degrees
 #' @param ...  other arguments to be passed to the R graphics package function lines
-#'
 #' @details  Grid lines are added to the plot at the specified interval
-#'
+#' @return Returns no value
 #' @export
 #'
 "pp.grid" <-

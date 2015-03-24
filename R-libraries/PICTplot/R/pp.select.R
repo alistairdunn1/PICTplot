@@ -1,5 +1,5 @@
-#' Utility function
-#'
+# Utility function
+#
 "pp.select"<- function(xlim, ylim)
 {
   out <- list(lat = 0, long = 0)

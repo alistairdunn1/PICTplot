@@ -8,7 +8,13 @@ pp.text(x, y = NULL, ...)
 \arguments{
 \item{x,}{y  numeric vectors of coordinates where the text labels should be written. If the length of x and y differs, the shorter one is recycled.}
 }
+\value{
+Returns no value
+}
 \description{
-text draws the strings given in the vector labels at the coordinates given by x and y. y may be missing since xy.coords(x, y) is used for construction of the coordinates.
+Draws the strings given in the vector labels at the coordinates given by x and y. y may be missing since xy.coords(x, y) is used for construction of the coordinates.
+}
+\details{
+Adds text to a pp() plot
 }
 

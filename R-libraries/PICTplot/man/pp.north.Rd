@@ -17,7 +17,13 @@ pp.north(x, y, size = 0.1, label = T, length = 0.25, angle = 30,
 
 \item{x,}{y}
 }
+\value{
+Returns no value
+}
 \description{
 Draws an arrow indicating north
+}
+\details{
+Adds a north pointer arrow to a pp() plot
 }
 

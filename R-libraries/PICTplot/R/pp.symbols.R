@@ -1,7 +1,9 @@
 #' Add symbols to a PICT plot
 #'
-#' @description This function draws symbols on a plot. One of six symbols; circles, squares, rectangles, stars, thermometers, and boxplots, can be plotted at a specified set of x and y coordinates. Specific aspects of the symbols, such as relative size, can be customized by additional parameters.
+#' @description Draws symbols on a plot. One of six symbols; circles, squares, rectangles, stars, thermometers, and boxplots, can be plotted at a specified set of x and y coordinates. Specific aspects of the symbols, such as relative size, can be customized by additional parameters.
 #' @param x, y  the x and y co-ordinates for the centres of the symbols.
+#' @details Adds symbols to a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.symbols"<-

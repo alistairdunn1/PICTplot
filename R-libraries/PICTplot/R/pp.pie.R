@@ -1,12 +1,14 @@
 #' Add a pie chart to a PICT plot
 #'
-#' @description #   Draws pie charts at specified locations on a map drawn by PICTplot using either the Mercator or rectangular projection.
+#' @description Draws pie charts at specified locations on a map drawn by PICTplot using either the Mercator or rectangular projection.
 #' @param x, y  numeric vectors of coordinates where the text labels should be written. If the length of x and y differs, the shorter one is recycled.
 #' @usage pp.pie(x, y = NULL, z, size = 0.2, resolution = 360, start.angle = 1, col = rainbow(length(z)), border = T, ...)
 #' @param x, y x, y give the location of the centre of the pie charts. x is either a scalar giving the longitude of the centre or a vector of length 2 giving the long and lat (in that order) of the centre
 #' @param z a vector of relative sizes of each slice (unscaled)
 #' @param size diameter of the pie as a proportion of the length of the x axis
 #' @param resolution  an integer specifying the numbers of points used to draw the circle. Default is 360, which corresponds to a point every degree around the circle.
+#' @details Adds a pie graph onto a pp() plot
+#' @return Returns no value
 #' @export
 #'
 "pp.pie"<-

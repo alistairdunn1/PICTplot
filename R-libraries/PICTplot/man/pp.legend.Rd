@@ -6,9 +6,14 @@
 pp.legend(x, y, ...)
 }
 \arguments{
-\item{x,}{y  the x and y co-ordinates for the location of legend.}
+\item{x,}{y  the x and y co-ordinates for the location of legend}
+
+\item{...}{arguments passes to legend()}
+}
+\value{
+Returns no value
 }
 \description{
-This function adds a legend to a plot.
+Adds a legend to a plot.
 }
 

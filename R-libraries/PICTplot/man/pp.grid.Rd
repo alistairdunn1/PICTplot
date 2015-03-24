@@ -6,9 +6,12 @@
 pp.grid(at = 5, col = "gray", lty = 1, ...)
 }
 \arguments{
-\item{at}{the places (in degrees) at which gridlines will be drawn. Defaults to 5 degrees}
+\item{at}{the frequency (in degrees) at which gridlines will be drawn. Defaults to 5 degrees}
 
 \item{...}{other arguments to be passed to the R graphics package function lines}
+}
+\value{
+Returns no value
 }
 \description{
 Adds grid lines to a PICT plot

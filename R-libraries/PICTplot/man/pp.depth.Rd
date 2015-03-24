@@ -5,7 +5,16 @@
 \usage{
 pp.depth(contour = NULL, lty = 1, lwd = 1, col = 1)
 }
+\arguments{
+\item{contour}{The depth contours to be plotted}
+}
+\value{
+Returns no value
+}
 \description{
-Add depth contours to a PICT plot
+Adds depth contours to a PICT plot
+}
+\details{
+Adds a bathymetric contour to a pp() plot
 }
 

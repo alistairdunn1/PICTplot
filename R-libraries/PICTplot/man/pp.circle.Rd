@@ -15,6 +15,9 @@ pp.circle(distance, long, lat, plot = TRUE, fill.col = 0, fill = !fill.col
 
 \item{fillcol}{if fillcol != 0, then then circle will be filled with colour fill.col}
 }
+\value{
+Returns no value
+}
 \description{
 Draws circles with specified great circle radii (in nautical miles) around specified centres
 }

@@ -5,7 +5,22 @@
 \usage{
 pp.arrows(x1, y1, x2, y2, length = 0.1, ...)
 }
+\arguments{
+\item{x1,}{y1 coordinates of points to which to draw. At least one must the supplied}
+
+\item{length}{length of the edges of the arrow head (in inches).}
+
+\item{...}{arguments passes to arrows()}
+
+\item{x0,}{y0 coordinates of points from which to draw.}
+}
+\value{
+Returns no value
+}
 \description{
-Add arrows to a PICT plot
+Adds arrows to a PICT plot
+}
+\details{
+Adds arrows to a pp() plot
 }
 
