@@ -1,4 +1,4 @@
 "PICTplot.version"<-
 function() {
-return("Version v1.0-24-03-2015")
+return("Version v1.0-30-04-2015")
 }

@@ -1,11 +1,11 @@
 Package: PICTplot
 Title: Pacific Island Countries and Territories coastlines, boundaries, and bathymetry
-Version: 1.0-24-03-2015
-Date: 16518
+Version: 1.0-30-04-2015
+Date: 16555
 Author: Alistair Dunn, Laura Boyer
 Description: Data and functions for plotting Pacific Island Countries and Territories coastlines, boundaries, and bathymetry.
 Maintainer: Alistair Dunn <a.dunn@niwa.cri.nz>
-Depends: R (>= 3.1.0)
+Depends: R (>= 3.0.0)
 License: GPL-3.
 URL: http://www.niwa.co.nz, http://www.spc.int
 Copyright: National Institute of Water & Atmospheric Research (NIWA), Secretariat of the Pacific Community (SPC).
